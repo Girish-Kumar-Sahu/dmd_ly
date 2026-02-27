@@ -11,7 +11,7 @@ lyrics = [
 ]
 
 
-delays = [3, 4, 3.5, 2.8, 3.2, 2.5]  # adjust these according to song timing
+delays = [3, 4, 3.5, 2.8, 3.2, 2.5] 
 
 for i in range(len(lyrics)):
     print(lyrics[i])
