@@ -11,6 +11,8 @@ lyrics = [
 ]
 
 
-for line in lyrics:
-    print(line)
-    time.sleep(2.5)  # Approx 2.5s per line to 
+delays = [3, 4, 3.5, 2.8, 3.2, 2.5]  # adjust these according to song timing
+
+for i in range(len(lyrics)):
+    print(lyrics[i])
+    time.sleep(delays[i])
