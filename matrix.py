@@ -1,3 +1,4 @@
+print("twod (2d) matrix multiplication")
 r1= int(input("enter number of rows of first matrix: "))
 c1= int(input("enter number of columns of first matrix: "))
 r2= int(input("enter number of rows of second matrix: "))
